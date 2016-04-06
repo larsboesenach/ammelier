@@ -1,0 +1,10 @@
+div#welcome {
+	height: 90vh;
+	width: 90vw;
+	background: black;
+}
+ 
+div#projects {
+	height: 100vh;
+	background: yellow;
+}
