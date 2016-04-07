@@ -1,0 +1,23 @@
+/*
+
+	Made by Lars
+
+	Command om te compile in terminal: sass --watch scss/main.scss:css/main.css
+
+*/
+
+//----------------------------
+//	Place the imports in this 
+//----------------------------
+
+@import "modules/settings";
+
+@import "modules/navigation";
+
+@import "modules/header";
+
+@import "modules/content";
+
+
+
+//----------------------------
