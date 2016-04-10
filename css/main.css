@@ -14,14 +14,18 @@ a, p,
 h1, h2, h3,
 h4, h5, h6,
 span {
-  color: black;
+  color: #171717;
   font-family: "Lato", sans-serif;
   letter-spacing: 0.5px; }
 
 h1, h2, h3, h4 {
   font-family: "Lato", sans-serif; }
 
+h2 {
+  font-size: 38px; }
+
 p {
+  font-size: 16px;
   text-align: justify; }
 
 a {
@@ -48,7 +52,7 @@ a {
   background-color: #F8F8F8; }
 
 .fullscreen-content-wrap.three {
-  background-color: orange; }
+  background-color: #282828; }
 
 .darkscreen {
   background-color: black;
@@ -69,13 +73,15 @@ a {
     bottom: 0;
     left: 50%;
     width: 500px;
-    height: 150px;
+    max-height: 165px;
     margin-left: -250px;
-    background-color: orange; }
+    overflow: hidden; }
+    .logo-wrap .logo img {
+      width: 100%; }
 
 .header-content {
   max-width: 80vw;
-  margin: 10vh auto 0;
+  margin: 11vh auto 0;
   padding: 0 20px;
   position: relative;
   z-index: 10; }
@@ -119,5 +125,63 @@ a {
 
 .Ancordown .arrow:hover {
   margin: 10px auto 30px; }
+
+.content-wrap {
+  background-color: #F8F8F8; }
+
+.text-box {
+  margin: 60px 10px 30px;
+  padding: 30px 0px; }
+  .text-box .text {
+    padding: 20px 0; }
+
+.box-img {
+  background-image: url("../img/box-img1.png");
+  background-size: cover;
+  background-position: center center;
+  height: 40vh; }
+
+.button a {
+  display: inline-block;
+  padding: 8px 30px;
+  margin: 20px 0;
+  font-size: 24px;
+  border: 2px solid #171717;
+  background-color: white; }
+  .button a:hover {
+    color: #171717;
+    background-color: #F8F8F8; }
+
+.content-wrap.thirdwrap .box-img {
+  background-image: url("../img/box-img1.png"); }
+
+.content-wrap.secondwrap {
+  position: relative;
+  overflow: hidden; }
+  .content-wrap.secondwrap .bg-img {
+    position: absolute;
+    background-image: url("../img/restaurant-bg2.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    z-index: 4; }
+  .content-wrap.secondwrap .container {
+    z-index: 20;
+    position: relative; }
+  .content-wrap.secondwrap p, .content-wrap.secondwrap h2, .content-wrap.secondwrap a {
+    color: white;
+    text-align: right; }
+  .content-wrap.secondwrap p {
+    font-weight: 300; }
+  .content-wrap.secondwrap .button {
+    text-align: right; }
+  .content-wrap.secondwrap .button a {
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: right; }
+    .content-wrap.secondwrap .button a:hover {
+      color: #171717;
+      background-color: #F8F8F8; }
 
 /*# sourceMappingURL=main.css.map */

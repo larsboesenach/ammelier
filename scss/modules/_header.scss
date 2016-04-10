@@ -19,7 +19,7 @@
 }
 
 .fullscreen-content-wrap.three {
-	background-color: orange;
+	background-color: #282828;
 }
 
 .darkscreen {
@@ -46,16 +46,19 @@
 		bottom: 0;
 		left: 50%;
 		width: 500px;
-		height: 150px;
-		margin-left: -250px; 	
-		background-color: orange;
+		max-height: 165px;
+		margin-left: -250px; 
+		overflow: hidden;
 		
+		img {
+			width: 100%;
+		}
 	}
 }
 
 .header-content {
 	max-width: 80vw;
-	margin: 10vh auto 0;
+	margin: 11vh auto 0;
 	padding: 0 20px; 
 	position: relative;
 	z-index: 10;
