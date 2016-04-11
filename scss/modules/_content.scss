@@ -149,6 +149,10 @@
 .fullscreen-content-wrap.footer {
 	background-color: black;
 	overflow: hidden;
+
+	@media screen and (max-width: 500px) {
+		height: 80vh;
+	}
 	
 	.bg-img {
 		position: absolute;
