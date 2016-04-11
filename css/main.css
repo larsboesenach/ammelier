@@ -16,7 +16,7 @@ h4, h5, h6,
 span {
   color: #171717;
   font-family: "Lato", sans-serif;
-  letter-spacing: 0.5px; }
+  letter-spacing: 0.3px; }
 
 h1, h2, h3, h4 {
   font-family: "Lato", sans-serif; }
@@ -36,6 +36,9 @@ a {
   height: 100vh;
   position: relative; }
 
+.container {
+  max-width: 1000px; }
+
 .fullscreen-content-wrap.one {
   background-color: black;
   overflow: hidden; }
@@ -44,27 +47,20 @@ a {
       height: 100vh; } }
   .fullscreen-content-wrap.one .bg-img {
     position: absolute;
-    background-image: url("../img/restaurant-bg.jpg");
+    background-image: url("../img/headerbg@2x.png");
     background-size: cover;
     width: 100%;
     height: 100%;
-    z-index: 4;
-    filter: blur(7px); }
+    z-index: 4; }
+    @media screen and (max-width: 1024px) {
+      .fullscreen-content-wrap.one .bg-img {
+        background-image: url("../img/headerbg.png"); } }
 
 .fullscreen-content-wrap.two {
   background-color: #F8F8F8; }
 
 .fullscreen-content-wrap.three {
   background-color: #282828; }
-
-.darkscreen {
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: block;
-  z-index: 5;
-  opacity: 0.7; }
 
 .logo-wrap {
   height: 35vh;
@@ -132,9 +128,7 @@ a {
   .Ancordown .arrow {
     display: block;
     width: 30px;
-    height: 30px;
     margin: 0 auto 20px;
-    background-color: rgba(255, 255, 255, 0.1);
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease; }
@@ -146,7 +140,7 @@ a {
     font-weight: 300; }
 
 .Ancordown .arrow:hover {
-  margin: 10px auto 30px; }
+  padding: 10px 0; }
 
 .content-wrap {
   background-color: #F8F8F8; }
@@ -161,11 +155,9 @@ a {
   .text-box .text {
     padding: 20px 0; }
 
-.box-img {
-  background-image: url("../img/box-img1.png");
-  background-size: cover;
-  background-position: center center;
-  height: 40vh; }
+.box-img img {
+  max-height: 390px;
+  margin-top: 25px; }
 
 .button a {
   display: inline-block;
@@ -181,12 +173,27 @@ a {
     color: #171717;
     background-color: #F8F8F8; }
 
+.extra-text {
+  margin-top: 20px; }
+
+.cursive-text {
+  font-style: italic; }
+
+.intro {
+  background-color: #E2E2E2;
+  text-align: center; }
+  .intro .text-box .text {
+    max-width: 500px;
+    margin: 0 auto; }
+    .intro .text-box .text p {
+      text-align: justify; }
+
 .content-wrap.secondwrap {
   position: relative;
   overflow: hidden; }
   .content-wrap.secondwrap .bg-img {
     position: absolute;
-    background-image: url("../img/restaurant-bg2.jpg");
+    background-image: url("../img/meet-thechef@2x.png");
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -196,15 +203,9 @@ a {
     z-index: 20;
     position: relative; }
   .content-wrap.secondwrap p, .content-wrap.secondwrap h2, .content-wrap.secondwrap a {
-    color: white;
-    text-align: right; }
-  @media screen and (max-width: 500px) {
-    .content-wrap.secondwrap .text p {
-      text-align: justify; } }
+    color: white; }
   .content-wrap.secondwrap p {
     font-weight: 300; }
-  .content-wrap.secondwrap .button {
-    text-align: right; }
   .content-wrap.secondwrap .button a {
     border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.1);
@@ -234,11 +235,14 @@ a {
   overflow: hidden; }
   .fullscreen-content-wrap.footer .bg-img {
     position: absolute;
-    background-image: url("../img/restaurant-bg3.jpg");
+    background-image: url("../img/footerbg@2x.png");
     background-size: cover;
     width: 100%;
     height: 100%;
     z-index: 4; }
+    @media screen and (max-width: 1024px) {
+      .fullscreen-content-wrap.footer .bg-img {
+        background-image: url("../img/footerbg.png"); } }
   .fullscreen-content-wrap.footer .darkscreen-gradient {
     position: absolute;
     width: 100%;

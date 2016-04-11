@@ -9,12 +9,14 @@
 
 	.bg-img {
 		position: absolute;
-		background-image: url("../img/restaurant-bg.jpg");
+		background-image: url("../img/headerbg@2x.png");
 		background-size: cover;
 		width: 100%;
 		height: 100%;
 		z-index: 4;
-		filter: blur(7px);
+		@media screen and (max-width: 1024px) {
+			background-image: url("../img/headerbg.png");
+		}
 	}
 }
 
@@ -26,16 +28,6 @@
 	background-color: #282828;
 }
 
-.darkscreen {
-	background-color: black;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	display: block;
-	z-index: 5;
-	opacity: 0.7;
-
-}
 
    
 
@@ -123,9 +115,9 @@
 	.arrow {
 		display: block;
 		width: 30px;
-		height: 30px;
+		
 		margin: 0 auto 20px;
-		background-color: rgba(255,255,255,0.1);
+		
 		@include easing-mixin-1;
 		
 	}
@@ -140,7 +132,7 @@
 }
 
 .Ancordown .arrow:hover { 
-	margin: 10px auto 30px;
+	padding: 10px 0;
 }
 
 
