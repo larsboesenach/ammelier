@@ -18,9 +18,17 @@
 	}
 }
 
-.box-img img {
-	max-height: 390px;
-	margin-top: 25px;
+.box-img {
+	max-width: 400px; 
+	margin: 0 auto;
+	img {
+		max-height: 390px;
+		margin-top: 25px;
+		
+		@media screen and (max-width: 500px) {
+			width: 100%;
+		}
+	}
 }
 
 .button a {
@@ -180,7 +188,7 @@
 
 		@media screen and (max-width: 500px) {
 			max-width: 100vh;
-			margin: 18vw auto 0;
+			margin: 14vw auto 0;
 		}
 
 		.footer-text {
@@ -231,11 +239,12 @@
 
 	@media screen and (max-width: 500px) {
 		padding: 10px 30px;
-		font-size: 14px;	
+		font-size: 18px;	
 	}
 
 	&:hover {
 		background-color: rgba(255,255,255,0.1);
+		cursor: pointer;
 	}
 }
 
@@ -245,7 +254,7 @@
 
 
 	.logo-wrap-2 {
-		height: 20vh;
+		height: 160px;
 		position: relative;
 		z-index: 10;
 		display: block;

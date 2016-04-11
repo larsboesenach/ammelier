@@ -40,7 +40,7 @@
 </div>
 
 
-<div class="content-wrap intro">
+<div class="content-wrap intro" id="ancor2">
    <div class="container">
          
          <div class="text-box">
@@ -55,7 +55,7 @@
 
 
 
-<div class="content-wrap" id="ancor2">
+<div class="content-wrap">
    <div class="container">
       
       <div class="row">
@@ -162,19 +162,21 @@ Excellent chefs worldwide have taken up the challenge to prepare something amazi
 <div class="fullscreen-content-wrap footer">
    <div class="bg-img"></div>
    <div class="darkscreen-gradient"></div>
+   
+   <div class="container">
+      <div class="footer-content">
+            <div class="footer-text">
+               <h1>We are building a service to suit your needs.</h1>
+               <div class="p-text">
+                  <p>Whether it’s gluten-free or diary-free diet or any other allergy or intolerance. Ammelier will be happy to help you.</p>
+               </div>
 
-   <div class="footer-content">
-         <div class="footer-text">
-            <h1>We are building a service to suit your needs.</h1>
-            <div class="p-text">
-               <p>Whether it’s gluten-free or diary-free diet or any other allergy or intolerance. Ammelier will be happy to help you.</p>
+               <div class="button-signup">
+                  <a id="open-popup">SIGNUP</a>
+               </div>
             </div>
-
-            <div class="button-signup">
-               <a href="#">SIGN UP</a>
-            </div>
-         </div>
-   </div>
+      </div>
+      </div>
 </div>
 
 <div class="footer-logo">
@@ -186,6 +188,7 @@ Excellent chefs worldwide have taken up the challenge to prepare something amazi
          </div>
    </div>
 </div>
+
 
 </body>
 </html>

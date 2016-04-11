@@ -54,6 +54,9 @@ h1,h2, h3, h4 {
 
 h2 {
 	font-size: 38px;
+	@media screen and (max-width: 500px) {
+		font-size: 32px;
+	}
 }
 
 p {
@@ -90,7 +93,14 @@ a {
 
 .container {
 	max-width: 1000px;
+
+	@media screen and (max-width: 500px) {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
 }
+
+
 //-----------------------
 
 
