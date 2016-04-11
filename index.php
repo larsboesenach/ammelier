@@ -32,7 +32,9 @@
 
    <div class="Ancordown">
    		<a href="#ancor2">
-            <div class="arrow"></div>
+            <div class="arrow-wrap">
+               <div class="arrow"></div>
+            </div>
          </a>
       		<p>find out how it works</p>
    </div>
@@ -111,9 +113,56 @@
 </div>
 
 
+<div class="content-wrap fourthwrap">
+   <div class="container">
 
-<div class="fullscreen-content-wrap three">
-   your content on screen 4
+      <div class="newsletter-box">
+         
+         <div class="text-box">
+               <h2>Newsletter</h2>
+                  <div class="text">
+                     <p>Intrested? We send a curated newsletter about London events every week.</p>
+                  </div>
+               <div class="button"><a href="#">subscribe</a></div>
+
+               <div class="text cursive">
+                     <p>We will keep your information private.</p>
+               </div>
+            </div>
+
+      </div>
+
+   </div>
+</div>
+
+
+<div class="fullscreen-content-wrap footer">
+   <div class="bg-img"></div>
+   <div class="darkscreen"></div>
+   <div class="darkscreen-gradient"></div>
+
+   <div class="footer-content">
+         <div class="footer-text">
+            <h1>Have a dining experience you can only dream of.</h1>
+            <div class="p-text">
+               <p>Ammelier is a service for people with allergies and don't like to book their restaurants, we have a solution for this, we call it Ammelier.</p>
+            </div>
+
+            <div class="button-signup">
+               <a href="#">SIGN UP</a>
+            </div>
+         </div>
+   </div>
+</div>
+
+<div class="footer-logo">
+   <div class="logo-wrap-2">
+         <div class="logo">
+            <div class="img">
+               <img src="img/logo_white.png">      
+            </div>
+         </div>
+   </div>
 </div>
 
 </body>
